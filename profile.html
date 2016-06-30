@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Tricity Finishing LTD</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/slides.min.jquery.js"></script>
+<script>
+		$(function(){
+			$('#slideshow').slides({
+				preload: true,
+				preloadImage: 'images/loading.gif',
+				effect: 'fade',
+				play:5000,
+				crossfade: true,
+				fadeSpeed: 500,
+				generatePagination: false
+			});
+		});
+	</script>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css?v=1.01">
+</head>
+<body>
+
+<div class="wrapper">
+
+<div class="header">
+	<a href='index.html'><div class="logo"><span><div class="fc">T</div>ricity <div class="fc">F</div>inishing LTD<span></div></a>
+	<div class="menu">
+		<ul>
+		<li><a href='../profile.html' class="current"><div class="fc">P</div>rofile</a></li>
+		<li><a href='../projects/index.html'><div class="fc">P</div>rojects</a></li>
+		<li><a href='../contact.html'><div class="fc">C</div>ontact</a></li>
+		<li><a href='../projects/transformations.html' ><div class="fc">T</div>ransformations</a></li>
+		</ul>
+	</div>
+</div>
+<script>
+<!--
+
+$(document).ready(function($){
+	$(".testimonials").hide();
+	$(".profileDescription").fadeTo(500, 0.7);
+	
+	$(".profileDescription").click(function(e){
+		e.preventDefault();
+		$(".testimonials").fadeOut(500, function(){ 
+			$(".description").fadeIn(500);
+		});
+		$(".profileTestimonials").fadeTo(500, 1);
+		$(".profileDescription").fadeTo(500, 0.7);
+	});
+	
+	$(".profileTestimonials").click(function(e){
+		e.preventDefault();
+		$(".description").fadeOut(500, function(){
+			$(".testimonials").fadeIn(500);
+		});
+		$(".profileDescription").fadeTo(500, 1);
+		$(".profileTestimonials").fadeTo(500, 0.7);
+	});
+});
+-->
+</script>
+<div class="content">
+	<div class="menu profile">
+		<ul>
+		<li><a href='index.html' class="profileDescription"><div class="fc">B</div>io</a></li>
+		<li><a href='testimonials.html' class="profileTestimonials"><div class="fc">T</div>estimonials</a></li>
+		<li style="display:none;"><a href='#'><div class="fc">G</div>aurantee</a></li>
+		</ul>
+	</div>
+	<div class="info profile">
+		<div class="description">
+		This is a bunch of stuff. This is a bunch of stuff. This is a bunch of stuff. This is a bunch of stuff.This is a bunch of stuff. This is a bunch of stuff. This is a bunch of stuff. This is a bunch of stuff. This is a bunch of stuff.This is a bunch of stuff. This is a bunch of stuff. This is a bunch of stuff. This is a bunch of stuff. This is a bunch of stuff.This is a bunch of stuff.
+		</div>
+		<div class="testimonials" style="display:none;">
+		These guys are awesome. <br>-- Mr. President<br><br>
+		They really helped my lazy husband. <br> -- Mrs. President
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+<div class="contact"> tricity5@telus.net   |   (604) 464 - 2730 </div>
+<div class="motto">
+<span>
+If you can <b>dream</b> it, we can <b>build</b> it.
+
+</span>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>

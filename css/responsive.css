@@ -1,0 +1,20 @@
+
+@media screen and (max-width: 320px){
+	.wrapper{
+			margin-top:-150px;
+			margin-left:-150px;
+	}
+	.logo{
+		display:block;
+		border:none;
+		float:none;
+		border-bottom:1px black solid;
+	}
+	.menu{
+		float:none;
+		display:block;
+	}
+	.footer .contact{
+		display:none;
+	}
+}
